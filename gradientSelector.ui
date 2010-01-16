@@ -1,0 +1,57 @@
+<ui version="4.0" >
+ <class>Form1</class>
+ <widget class="QWidget" name="Form1" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form1</string>
+  </property>
+  <widget class="QListWidget" name="listWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <property name="viewMode" >
+    <enum>QListView::IconMode</enum>
+   </property>
+   <property name="uniformItemSizes" >
+    <bool>false</bool>
+   </property>
+   <item>
+    <property name="text" >
+     <string>New Item</string>
+    </property>
+    <property name="icon" >
+     <iconset>height.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text" >
+     <string>New Item</string>
+    </property>
+    <property name="icon" >
+     <iconset>gradient.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text" >
+     <string>New Item</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11" />
+ <pixmapfunction>qPixmapFromMimeSource</pixmapfunction>
+ <resources/>
+ <connections/>
+</ui>

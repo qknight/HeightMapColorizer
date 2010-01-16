@@ -1,0 +1,3 @@
+#!/bin/bash -v
+
+cp HeightMapColorizer /home/joachim/Desktop/projects/libnoise/examples

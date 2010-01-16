@@ -1,0 +1,220 @@
+<ui version="4.0" >
+ <class>tableWidget</class>
+ <widget class="QDialog" name="tableWidget" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>543</width>
+    <height>681</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Color gradient creator</string>
+  </property>
+  <property name="windowIcon" >
+   <iconset>height.png</iconset>
+  </property>
+  <layout class="QGridLayout" >
+   <item row="0" column="0" >
+    <widget class="QTableWidget" name="table" >
+     <property name="sortingEnabled" >
+      <bool>true</bool>
+     </property>
+     <row>
+      <property name="text" >
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>New Row</string>
+      </property>
+     </row>
+     <row>
+      <property name="text" >
+       <string>New Row</string>
+      </property>
+     </row>
+     <column>
+      <property name="text" >
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>New Column</string>
+      </property>
+     </column>
+     <column>
+      <property name="text" >
+       <string>New Column</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0" >
+    <layout class="QHBoxLayout" >
+     <item>
+      <widget class="QPushButton" name="loadBtn" >
+       <property name="text" >
+        <string>&amp;Load gradient</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="saveBtn" >
+       <property name="text" >
+        <string>&amp;Save gradient</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>351</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="printBtn" >
+       <property name="text" >
+        <string>&amp;print</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="delBtn" >
+       <property name="text" >
+        <string>&amp;del Row</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton" >
+       <property name="text" >
+        <string>&amp;add Row</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0" >
+    <widget class="QLabel" name="viewGradient" >
+     <property name="sizePolicy" >
+      <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize" >
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="maximumSize" >
+      <size>
+       <width>16777215</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="text" >
+      <string/>
+     </property>
+     <property name="pixmap" >
+      <pixmap>height.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" >
+    <layout class="QHBoxLayout" >
+     <item>
+      <widget class="QLabel" name="viewOld" >
+       <property name="minimumSize" >
+        <size>
+         <width>256</width>
+         <height>256</height>
+        </size>
+       </property>
+       <property name="maximumSize" >
+        <size>
+         <width>256</width>
+         <height>256</height>
+        </size>
+       </property>
+       <property name="text" >
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer>
+       <property name="orientation" >
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" >
+        <size>
+         <width>16</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QLabel" name="viewNew" >
+       <property name="minimumSize" >
+        <size>
+         <width>256</width>
+         <height>256</height>
+        </size>
+       </property>
+       <property name="maximumSize" >
+        <size>
+         <width>256</width>
+         <height>256</height>
+        </size>
+       </property>
+       <property name="text" >
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

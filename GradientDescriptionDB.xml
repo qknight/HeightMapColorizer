@@ -1,0 +1,29 @@
+<!DOCTYPE GradientDescriptionDB>
+<GradientDescriptionDB>
+    <Gradient>
+        <GradientPoint>
+            <position value="0.6" />
+            <red value="0" />
+            <green value="20" />
+            <blue value="250" />
+        </GradientPoint>
+        <GradientPoint>
+            <position value="0.3" />
+            <red value="129" />
+            <green value="250" />
+            <blue value="200" />
+        </GradientPoint>
+        <GradientPoint>
+            <position value="0.2" />
+            <red value="20" />
+            <green value="200" />
+            <blue value="255" />
+        </GradientPoint>
+        <GradientPoint>
+            <position value="0.1" />
+            <red value="20" />
+            <green value="0" />
+            <blue value="0" />
+        </GradientPoint>
+    </Gradient>
+</GradientDescriptionDB>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GradientDescriptionDB>
+<GradientDescriptionDB version="1.0">
+    <Gradient>
+        <GradientPoint>
+            <position value="0" />
+            <red value="255" />
+            <green value="0" />
+            <blue value="0" />
+        </GradientPoint>
+        <GradientPoint>
+            <position value="0.5" />
+            <red value="0" />
+            <green value="255" />
+            <blue value="0" />
+        </GradientPoint>
+        <GradientPoint>
+            <position value="1" />
+            <red value="0" />
+            <green value="0" />
+            <blue value="255" />
+        </GradientPoint>
+    </Gradient>
+</GradientDescriptionDB>
